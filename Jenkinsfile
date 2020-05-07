@@ -6,7 +6,7 @@ node {
   }
 
   stage('Build image') {
-    app = docker.build('brentonmorris/example-app')
+    app = docker.build('brentonamorris/example-app')
   }
 
   stage('Push image') {
